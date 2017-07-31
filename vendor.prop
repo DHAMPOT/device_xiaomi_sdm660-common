@@ -134,6 +134,7 @@ ro.surface_flinger.set_idle_timer_ms=9000
 ro.surface_flinger.wcg_composition_dataspace=143261696
 vendor.display.disable_rotator_downscale=1
 vendor.display.disable_scaler=0
+debug.hwui.use_buffer_age=false
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
