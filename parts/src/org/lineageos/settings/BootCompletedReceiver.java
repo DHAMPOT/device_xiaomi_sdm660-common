@@ -24,6 +24,7 @@ import android.content.SharedPreferences;
 import android.util.Log;
 import androidx.preference.PreferenceManager;
 
+import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 
@@ -39,5 +40,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
         DozeUtils.checkDozeService(context);
         ThermalUtils.startService(context);
+        DiracUtils.initialize();
     }
 }
