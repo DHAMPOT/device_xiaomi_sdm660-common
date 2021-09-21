@@ -314,6 +314,10 @@ PRODUCT_PACKAGES += \
 # Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
+    
+# Platform
+PRODUCT_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := sdm660
 
 # Power
 PRODUCT_PACKAGES += \
