@@ -23,4 +23,4 @@ ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
 # WFD
-persist.debug.wfd.enable=0
+persist.debug.wfd.enable=1
