@@ -424,3 +424,6 @@ PRODUCT_COPY_FILES += \
     
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
+
+# Inherit vendor/XiaomiParts
+$(call inherit-product, vendor/XiaomiParts/xiaomiparts.mk)
