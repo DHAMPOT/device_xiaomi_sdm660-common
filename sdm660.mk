@@ -416,3 +416,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
+
+# Inherit vendor_XiaomiParts
+$(call inherit-product, vendor/XiaomiParts/xiaomiparts.mk)
