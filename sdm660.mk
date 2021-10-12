@@ -254,7 +254,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    apex_metadata.rc
+    apex_metadata.rc \
+    init.temp.rc
 
 # Iorap
 PRODUCT_PACKAGES += \
